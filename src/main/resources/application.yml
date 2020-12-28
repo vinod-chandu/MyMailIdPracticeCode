@@ -1,0 +1,12 @@
+server:
+ port: 8965
+spring:  mail:    host: smtp.gmail.com
+    port: 587
+    username: chandu.velagapudi22@gmail.com 
+    password: usharani
+    properties:      mail:
+        smtp:
+          auth:true
+          starttls:
+            enable: true
+        
